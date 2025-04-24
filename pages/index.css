@@ -76,7 +76,7 @@ line-height: 72px;
 color: #2F80ED;
 }
 
-.header__title_break{
+.header__span-acent_break{
 display: block;
 }
 
@@ -99,13 +99,13 @@ right: 5px;
 
 .header__footer{
 display: flex;
-justify-content: space-between;
-flex-direction: row;
-align-items: flex-end;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: flex-end;
 margin-top: auto;
 margin-left: 80px;
-margin-bottom:40px;
 margin-right: 80px;
+height: 60px;
 }
 
 .header__paragraph{
@@ -116,6 +116,10 @@ line-height: 20px;
 color: #838383;
 margin-top: 0;
 margin-bottom: 0;
+}
+
+.header__paragraph_right{
+align-self: flex-end;
 }
 
 .recipes{
