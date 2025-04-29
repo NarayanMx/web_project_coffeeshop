@@ -1,0 +1,97 @@
+.footer{
+background-color: #0A2850 ;
+display: flex;
+flex-flow: column;
+overflow: hidden;
+position: relative;
+color: white;
+}
+
+.footer__content{
+margin-top: 60px;
+margin-left: 80px;
+margin-right: 80px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.footer__logo{
+width: 105px;
+height: 39px;
+z-index: 1;
+}
+
+.footer__circle{
+background-color: #2F80ED ;
+width: 340px;
+height: 340px;
+border-radius: 50%;
+position: absolute;
+top: -128px;
+left: -44px;
+z-index: 0;
+}
+
+.footer__social{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+box-sizing: content-box;
+}
+
+.footer__social-heading{
+font-family: "Inter", "Arial", sans-serif;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.footer__list{
+list-style: none;
+align-self: flex-end;
+margin-bottom: 0;
+align-items: center;
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+
+.footer__list-item{
+font-family: "Inter", "Arial", sans-serif;
+font-size: 16px;
+line-height: 20px;
+}
+
+.footer__social-link{
+margin-top: 0px;
+color: white;
+text-decoration: none;
+display: flex;
+align-items: center;
+}
+
+.footer__social-link:hover{
+color: #C1C1C1;
+}
+
+.footer__social-icon{
+width: 16px;
+height: 16px;
+margin-right: 10px;
+display: flex;
+align-items: center;
+
+}
+
+.footer__copyright{
+font-family: "Inter", "Arial", sans-serif;
+font-size: 16px;
+line-height: 20px;
+margin-top: 108px;
+margin-bottom: 60px;
+margin-left: 80px;
+}
